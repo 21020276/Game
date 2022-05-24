@@ -82,14 +82,14 @@ void Controler::GenBlock()
         blockU[i] = blockU[i - 1];
     
     for (int i = 0;i < MAXN;++i)
-        blockU[i].h += rand() % 30 + 25;
+        blockU[i].h += rand() % 20 + 25;
 
     for (int i = 1;i < MAXN;++i)
         blockD[i] = blockD[i - 1];
 
     for (int i = 0;i < MAXN;++i)
     {
-        blockD[i].y -= rand() % 30 + 25;
+        blockD[i].y -= rand() % 20 + 25;
         blockD[i].h = 600 - blockD[i].y;
     }
     for (int i = 1;i < MAXN;++i)
@@ -201,7 +201,7 @@ void Controler::Event()
     if (Bird.getYpos() <= 0 || Bird.getYpos() >= HEIGHT) isOver = true;
     if (isOver)
     {
-        
+        Mix_PlayChannel(-1, hit, 0);
         //cout << "HighScore:" << highscore;
         SDL_RenderClear(renderer);
         //Score.Render(renderer);
@@ -303,9 +303,8 @@ void Controler::Render()
                 
                 if (Check(RECT_BIRD, blockD[i]) || Check(RECT_BIRD, blockU[i]))
                 {
-                    isOver = true;       
-                    Mix_PlayChannel(-1, hit, 0);       
-                   
+                    isOver = true;             
+                    
                     //SDL_RenderCopy(renderer, Message, NULL, &Message_rect);              
                    
                 }
@@ -329,7 +328,7 @@ void Controler::Render()
         {
             Over.Render(renderer);
             Score.Render(renderer);
-           
+            
             ifstream file("HighScore.txt");
             file >> highscore;
             file.close();
