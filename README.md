@@ -16,7 +16,7 @@ click chuột phải vào thanh FlappyBird chọn Properties. Trong Properties c
 
 - Điểm <100 sẽ được huy chương bạc ![](FlappyBird/Image/SilverMedal.png)
 
-- Điểm >1000 sẽ được huy chương vàng ![](FlappyBird/Image/GoldMedal.png)
+- Điểm >100 sẽ được huy chương vàng ![](FlappyBird/Image/GoldMedal.png)
 
 
 4.Các kỹ thuật lập trình:
