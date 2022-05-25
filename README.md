@@ -6,15 +6,18 @@ click chuột phải vào thanh FlappyBird chọn Properties. Trong Properties c
 - Sử dụng chuột hoặc mũi tên lên để điểu khiển con chim đi qua khe giữa 2 cột
 - Khoảng cách giữa các cột là ngẫu nhiên vừa đủ để đi qua
 - Nếu chim chạm vào cột hoặc điều khiển chim ra ngoài màn hình sẽ thua cuộc
+
 3.Các chức năng:
 - Có nhạc nền, âm thanh hiệu ứng giữa các lần click chuột, âm thanh khi va chạm vào cột
 - Lưu lại thành tích tốt nhất
 - Có hướng dẫn chơi game sau khi nhấn Button play
+
 4.Các kỹ thuật lập trình:
 - Có sử dụng lớp để xay dựng các đối tượng kiểu Object, Player, điều khiển trò chơi
 - Sử dụng đồ họa SDL2
 - Có âm thanh, text, hình ảnh
 - Có sử dụng con trỏ và mảng
+
 5. Kết luận :
 - Chương trình còn sơ xài , hình ảnh chưa đẹp, chưa có lưu tên, độ khó, thay đổi skin nhân vật
 - Chương trình sẽ còn phát triển trong tương lai
