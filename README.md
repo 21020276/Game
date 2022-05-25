@@ -12,9 +12,9 @@ click chuột phải vào thanh FlappyBird chọn Properties. Trong Properties c
 - Có nhạc nền, âm thanh hiệu ứng giữa các lần click chuột, âm thanh khi va chạm vào cột
 - Lưu lại thành tích tốt nhất
 - Có hướng dẫn chơi game sau khi nhấn Button play
-- Điểm < 10 sẽ được huy chương đồng
-- Điểm <100 sẽ được huy chương bạc
-- Điểm >1000 sẽ được huy chương vàng
+- Điểm < 10 sẽ được huy chương đồng ![](Game/BronzeMedal.png)
+- Điểm <100 sẽ được huy chương bạc ![](Game/SilverMedal.png)
+- Điểm >1000 sẽ được huy chương vàng ![](Game/GoldMedal.png)
 
 
 4.Các kỹ thuật lập trình:
