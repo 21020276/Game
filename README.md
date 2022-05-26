@@ -1,8 +1,21 @@
-1.Tải Code về ổ D
-Trong thư mục Game-Master chọn Game.sln
-click chuột phải vào thanh FlappyBird chọn Properties. Trong Properties chọn  Configuration Properties\C/C++\General\Addtional Include Directories copy đường path của thư viện SDL :D:\Game\SDL2_ttf\include;D:\Game\SDL2_mixer\include;D:\Game\SDL2_image\include;D:\Game\SDL2\include;%(AdditionalIncludeDirectories)
+# ***FLAPPY BIRD***
 
-2.Mô tả :
+
+## ***GIỚI THIỆU***
+- NGUYỄN TUẤN ANH - K66CD - UET
+- MSV 21020276
+
+
+
+## ***1.HƯỚNG DẪN CÀI ĐẶT***
+- Tải file zip về máy , giải nén
+- Tải thư viện SDL2, SDL2_image, SDL2_mixer, SDL2_ttf
+- Thêm đường dẫn tới các thư viện SDL https://www.youtube.com/watch?v=pcTnmgz4CZE (Hướng dẫn với Visual Studio, các IDE khác có thể tham khảo youtube)
+- Nếu bạn chỉ chơi mà không tham khảo code thì có thể click vào đường link https://drive.google.com/file/d/1nEgc5-94YcV7rVvZX9RMiAUdcMxZWMbR/view?usp=sharing để tải file và giải nén. Sau khi giải nén chạy file exe.
+  
+
+
+## ***2.MÔ TẢ***
 - Sử dụng chuột hoặc mũi tên lên để điểu khiển con chim đi qua khe giữa 2 cột
 - Khoảng cách giữa các cột là ngẫu nhiên vừa đủ để đi qua
 - Nếu chim chạm vào cột hoặc điều khiển chim ra ngoài màn hình sẽ thua cuộc
